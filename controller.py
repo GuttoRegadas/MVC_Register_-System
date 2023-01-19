@@ -39,5 +39,5 @@ class ControllerRegister():
         except:
             pass
 
-senha = "minha senha"
-print(hashlib.sha256(senha.encode()))
+senha = "minha segha"
+print(hashlib.sha256(senha.encode()).hexdigest())
